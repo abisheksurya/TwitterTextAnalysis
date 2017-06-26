@@ -1,6 +1,6 @@
 # TwitterTextAnalysis
 
-Given a file written by the TwitterInputAnalysis.py, the functions in TwitterAnalysis.py will read and organize the information in that file. There are function definitions to:
+Given a file written by the TwitterTextAnalysis.py, the functions in TwitterAnalysis.py will read and organize the information in that file. There are function definitions to:
 
 i) Return the top 'n' users who have tweeted the most related to the search string for the entire timeline. 'n' is provided by the user and can be any positive integer.
 
@@ -12,11 +12,11 @@ iv) Return the top 'n' tweets which have the maximum retweet count.
 
 This was accomplished, primarily, by making use of Python 3's built-in List and Dictionary structures.
 
-Instruction: TwitterInputAnalysis.py is compatible with Python 3. There are four independent functions contained within that will interact with a .txt file written by the provided TwitterInput.py. As such, each function asks the user to specify a file to open. As currently written, this path must include the entire path EXCEPT for the .txt file-type written at the end of the path. For example, if the file the user wishes to open is named "data.txt" and is located in "C:\Users\documents", the user should enter "C:\Users\documents\data" when prompted for the file.
+Instruction: TwitterTextAnalysis.py is compatible with Python 3. There are four independent functions contained within that will interact with a .txt file written by the provided TwitterInput.py. As such, each function asks the user to specify a file to open. As currently written, this path must include the entire path EXCEPT for the .txt file-type written at the end of the path. For example, if the file the user wishes to open is named "data.txt" and is located in "C:\Users\documents", the user should enter "C:\Users\documents\data" when prompted for the file.
 
-Additionally, TwitterInputAnalysis.py will ask the user to specify a file to write the information organized by the function to. This file can be named whatever the user desires and will be saved to the folder in which TwitterInputAnalysis.py is currently located.
+Additionally, TwitterTextAnalysis.py will ask the user to specify a file to write the information organized by the function to. This file can be named whatever the user desires and will be saved to the folder in which TwitterTextAnalysis.py is currently located.
 
-NOTE: Even though the file written by Twitter.py was encoded as 'utf-8', TwitterInputAnalysis.py was not able to read it with encoding specified as 'utf-8'. When opening, the encoding had to be specified as 'latin-1' in order for the file to be read without error.
+NOTE: Even though the file written by Twitter.py was encoded as 'utf-8', TwitterTextAnalysis.py was not able to read it with encoding specified as 'utf-8'. When opening, the encoding had to be specified as 'latin-1' in order for the file to be read without error.
 
 To run the seperate functions on a file, the user must uncomment the function calls located at the bottom of the file on lines 138, 139, 140, 141, and execute the program.
 
